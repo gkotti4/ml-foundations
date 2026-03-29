@@ -16,7 +16,9 @@ effects, and convergence behavior. Covers batch, mini-batch, and stochastic vari
 Full discrete convolution implemented manually in 1D and 2D — from the mathematical 
 definition through FFT-based optimization and probabilistic interpretations. Covers 
 direct implementation, im2col, FFT convolution, parallel optimization, and the 
-connection between convolution and probability distributions.
+connection between convolution and probability distributions. Includes CUDA 
+implementations of 1D, naive 2D, and tiled 2D convolution with shared and constant 
+memory optimization.
 
 ### Fourier Transforms & FFT
 Discrete Fourier Transform implemented from scratch, Cooley-Tukey FFT algorithm, 
@@ -27,7 +29,7 @@ FFT across increasing input sizes.
 
 ## Stack
 
-Python, NumPy, SciPy, Matplotlib, Seaborn
+Python, NumPy, SciPy, Matplotlib, Seaborn, CUDA C++
 
 ---
 
