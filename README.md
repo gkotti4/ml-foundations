@@ -25,11 +25,14 @@ Discrete Fourier Transform implemented from scratch, Cooley-Tukey FFT algorithm,
 frequency domain analysis, and the convolution theorem. Benchmarks naive DFT against 
 FFT across increasing input sizes.
 
+### Autoencoders
+In progress...
+
 ---
 
 ## Stack
 
-Python, NumPy, SciPy, Matplotlib, Seaborn, CUDA C++
+Python, NumPy, SciPy, Matplotlib, Seaborn, CUDA C++, PyTorch
 
 ---
 
